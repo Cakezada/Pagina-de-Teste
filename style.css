@@ -259,6 +259,7 @@ header {
   font-size: 14px;
   font-weight: 300;
   margin-top: 9px;
+  color: #444444;
 }
 .Herdric {
   display: flex;
@@ -268,6 +269,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 120px;
 }
 .pessoas-ideas {
   display: flex;
@@ -284,4 +286,88 @@ header {
 .Ideas h2 {
   margin-top: 30px;
   margin-bottom: 60px;
+}
+.leading{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #D3F9FF;
+  height: 603px;
+  align-items: center;
+}
+.lead-people{
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+.Hawkins{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.footer1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 441px;
+} 
+.topics{
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #929292;
+  font-weight: 600;
+}
+.line-topics{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 16px;
+}
+.line-topics h2{
+  cursor: pointer;
+}
+.princ-topics{
+  display: flex;
+  flex-direction: row;
+  gap: 136px;
+}
+.line-topics2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 21px;
+}
+.line-topics2 h2{
+  cursor: pointer;
+}
+.elanor-pena{
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.logo2{
+  width: 160px;
+  height: auto;
+  
+}
+.footer-verde{
+  background-color:#006d77;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.footer-verde h1{
+  font-size: 16px;
+  font-weight: 500;
 }
